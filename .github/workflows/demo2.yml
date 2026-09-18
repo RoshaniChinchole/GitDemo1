@@ -1,0 +1,8 @@
+name: practicle3
+on: push
+jobs:
+ your-job:
+runs-on: ununtu-latest
+steps:
+ - name: your-step
+   run: echo "hello you!"
